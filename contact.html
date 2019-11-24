@@ -7,7 +7,41 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
-<body style="background-image: url('./assets/images/blue-snow.png');">
-
-</body>
+<body class="bg">
+        <header>
+            <div id="headerContent">
+                <span class="name"><h1>Jeffrey Bell</h1></span>
+                <nav>
+                    <a href="./index.html">About</a>
+                    <a href="./portfolio.html">Portfolio</a>
+                    <a href="./contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="content">
+                <div id="contentHeader">
+                    <h2>Contact</h2>
+                </div>
+                <form id="frmContact" action="/my-handling-form-page" method="post">
+                    <div>
+                      <label for="name">Name:</label><br/>
+                      <input class="usrInput" type="text" id="name" >
+                    </div>
+                    <div>
+                      <label for="mail">Email:</label><br/>
+                      <input class="usrInput" type="email" id="mail" >
+                    </div>
+                    <div>
+                      <label for="msg">Message:</label><br/>
+                      <textarea class="usrInput" id="msg" rows="10" ></textarea>
+                    </div>
+                    <button id="btnSubmit" type="submit" >Submit</button>
+                  </form>
+            </div>
+        </main>
+        <footer>
+            <p id="copywright">Copywright @2019</p>
+        </footer>
+    </body>
 </html>

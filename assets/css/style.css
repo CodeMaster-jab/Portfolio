@@ -97,3 +97,15 @@
   .copywright {
     vertical-align: bottom;
   }
+  #frmContact {
+      margin: 20px;
+      color: #777777;
+  }
+  #btnSubmit {
+      font-size: x-large;
+      color: white;
+      background-color: teal;
+  }
+  .usrInput {
+      width: 100%;
+  }
