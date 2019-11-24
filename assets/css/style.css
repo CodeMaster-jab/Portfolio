@@ -1,9 +1,9 @@
 
   body {
+    margin: 0px;
     height: 100%;
     color: #777777;
     font-family: Arial, Helvica Neue, Helvetica, sans-serif;
-    background-image: url('./assets/images/blue-snow.png');
   }
   p {
       color: #777777;
@@ -63,11 +63,14 @@
   }
   #contentHeader {
     border-bottom: 2px solid #777777;
-    padding: 20px;
+    padding-left: 20px;
+  }
+  #skills {
+      font-size: smaller;
   }
   .bg { 
     /* The image used */
-    background-image: url("img_girl.jpg");
+    background-image: url(./assets/images/blue-snow.png);
   
     /* Full height */
     height: 100%; 
