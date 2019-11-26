@@ -5,7 +5,9 @@
     font-family: Arial, Helvica Neue, Helvetica, sans-serif;
   }
   .bg {
-      background-image: url(../images/blue-snow.png);
+      background-image: url('../images/blue-snow.png');
+      width:100%;
+      height:100%;
   }
   p {
       color: #777777;
@@ -70,9 +72,7 @@
   #skills {
       font-size: smaller;
   }
-  .bg { 
-    background-image: url('./assets/images/blue-snow.png');
-  }
+
   main {
     position: relative;
   }
