@@ -117,7 +117,7 @@
   }
   .tag {
       position: absolute;
-      top: -20px;
+      top: 50px;
       left: 0;
       width: 180px;
       text-align: center;
